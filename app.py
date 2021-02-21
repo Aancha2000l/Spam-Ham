@@ -1,4 +1,5 @@
 import pandas as pd
+import streamlit as st
 df = pd.read_table('spam.tsv')
 x = df.iloc[:,1].values
 y = df.iloc[:,0].values
